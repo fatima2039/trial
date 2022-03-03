@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Darth's Trial</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julee">
+</head>
+<style type="text/css">
+	body{
+		background:rgb(112, 0, 0);
+		background-size: cover;
+	}
+</style>
+<body>
+	<div class="story" align="center">
+		<div class="row1">
+			<div class="text-col">
+				<p class="storytxt">
+					The trial went on for two nights, and Darth Vader see no reason for stopping there. Darth have never seen the Appearance in Court. Three changes occurred now that he entered on the case for the defense. Two of them Darth will mention together, first. The figure was now in Court continually, and it never there addressed itself to him, but always to the person who was speaking at the time. For instance: the throat of the murdered man had been cut straight across. Darth the opening speech for the defense, it was suggested that the deceased might have cut his own throat. At that very moment, the figure, with its throat in the dreadful condition referred to (this it had concealed before), stood at the speaker's elbow, motioning across and across its windpipe, now with the right hand, now with the left, vigorously proposing to the speaker himself the impossibility of such a wound having been self-inflicted by either hand. For another instance: a witness to character, a woman, deposed to the prisoner's being the most visible of mankind. The figure at that instant stood on the floor before her, looking her full in the face, and pointing out the prisoner's evil countenance with an extended arm and an outstretched finger.
+
+				</p>
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript">
+		var str = document.body.innerHTML.toString();
+		var i = 0;
+		document.body.innerHTML = "";
+
+		setTimeout(function() {
+		    var se = setInterval(function() {
+		        i++;
+		        document.body.innerHTML = str.slice(0, i) + "|";
+		        if (i == str.length) {
+		            clearInterval(se);
+		            document.body.innerHTML = str;
+		        }
+		    }, 40);
+		});
+	</script>
+	
+
+</body>
+</html>

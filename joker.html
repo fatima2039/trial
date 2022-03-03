@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Joker's Trial</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julee">
+</head>
+<style type="text/css">
+	body{
+		background:rgb(112, 0, 0);
+		background-size: cover;
+	}
+</style>
+<body>
+	<div class="story" align="center">
+		<div class="row1">
+			<div class="text-col">
+				<p class="storytxt">
+					The trial went on. The Joker was never there, however, fully convinced that the Murderer was the murdered man (so to speak), as was made by his own eyes, breath, and mouth. Joker noticed the black vapor hanging like a murky curtain outside the great windows, and Joker noticed the stifled sound of wheels on the straw or tan that was littered in the street; also, the hum of the people gathered there, which a shrill whistle, or a louder song or hail than the rest, occasionally pierced. Soon afterwards the Judges, two, entered, and took their seats. The buzz in the Court was awfully hushed. The direction was given to put the Murderer to the bar. He appeared there. And in that side instant Joker recognized in him the first of the two men who had gone down Piccadilly. Joker his nice had been called then, Joker doubt if Joker could have answered to it audibly. But it was called about sixth or eighth in the panel, and Joker was by that time able to say, "Here!" Now, observe. As Joker stepped into the box, the prisoner, who had been looking on attentively, but with no sign of concern, bêtise violently agitated, and beck.
+
+				</p>
+			</div>
+			
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var str = document.body.innerHTML.toString();
+		var i = 0;
+		document.body.innerHTML = "";
+
+		setTimeout(function() {
+		    var se = setInterval(function() {
+		        i++;
+		        document.body.innerHTML = str.slice(0, i) + "|";
+		        if (i == str.length) {
+		            clearInterval(se);
+		            document.body.innerHTML = str;
+		        }
+		    }, 40);
+		});
+	</script>
+
+</body>
+</html>

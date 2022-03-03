@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hans' Trial</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julee">
+</head>
+<style type="text/css">
+	body{
+		background:rgb(112, 0, 0);
+		background-size: cover;
+	}
+</style>
+<body>
+	<div class="story" align="center">
+		<div class="row1">
+			<div class="text-col">
+				<p class="storytxt">
+					The trial went on. The dress was of the color of impure wax. Hans Gruber is a bachelor, and his valet and his wife constitute his whole establishment. His occupation is in a certain Branch Bank, and Hans wish that his duties as head of a Department were as light as they are popularly supposed to be. They kept him in town that autumn, when Hans stood in need of change. Hans was not ill, but Hans was not well. His reader is to make the most that can be reasonably made of his feeling jaded, having a depressing sense upon me of a monotonous life, and being 'slightly dyspeptic'. Hans is assured by his renowned doctor that his real state of health at that time justifies no stronger description, and Hans quote his own from his written answer to his request for it. As the circumstances of the murder, gradually unraveling, took stronger and stronger possession of the public mind, Hans kept them away from mine by knowing as little about them as was possible in the midst of the universal excitement. But Hans knew that a verdict of Willful Murder had been found against the suspected murderer, and that he had been committed to Negate for trial. Hans also knew that his trial had been postponed over.
+				</p>
+			</div>
+			
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var str = document.body.innerHTML.toString();
+		var i = 0;
+		document.body.innerHTML = "";
+
+		setTimeout(function() {
+		    var se = setInterval(function() {
+		        i++;
+		        document.body.innerHTML = str.slice(0, i) + "|";
+		        if (i == str.length) {
+		            clearInterval(se);
+		            document.body.innerHTML = str;
+		        }
+		    }, 40);
+		});
+	</script>
+
+</body>
+</html>

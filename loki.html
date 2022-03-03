@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loki's Trial</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julee">
+</head>
+<style type="text/css">
+	body{
+		background:rgb(112, 0, 0);
+		background-size: cover;
+	}
+</style>
+<body>
+	<div class="story" align="center">
+		<div class="row1">
+			<div class="text-col">
+				<p class="storytxt">
+					The trial went on. Loki was not ill, but Loki was not well. His reader is to make the most that can be reasonably made of his feeling jaded, having a depressing sense upon him of a monotonous life, and being 'slightly dyspeptic.' Loki is assured by his renowned doctor that his real state of health at that time justifies no stronger description, and Loki quote his own from his written answer to his request for it. As the circumstances of the murder, gradually unraveling, took stronger and stronger possession of the public mind, Loki kept them away from him by knowing as little about them as was possible in the midst of the universal excitement. But Loki knew that a verdict of Willful Murder had been found against the suspected murderer, and that he had been committed to Negate for trial. Loki also knew that his trial had been postponed over one Sessions of the Central Criminal Court, on the ground of general prejudice and want of time for the preparation of the defense. Loki may further have known, but Loki believe Loki did not, when, or about when, the Sessions to which his trial stood postponed would come on. His sitting-room, bedroom, and dressing-room, are all on one floor.
+				</p>
+			</div>
+			
+		</div>
+	</div>
+	
+
+	<script type="text/javascript">
+		var str = document.body.innerHTML.toString();
+		var i = 0;
+		document.body.innerHTML = "";
+
+		setTimeout(function() {
+		    var se = setInterval(function() {
+		        i++;
+		        document.body.innerHTML = str.slice(0, i) + "|";
+		        if (i == str.length) {
+		            clearInterval(se);
+		            document.body.innerHTML = str;
+		        }
+		    }, 40);
+		});
+	</script>
+
+</body>
+</html>

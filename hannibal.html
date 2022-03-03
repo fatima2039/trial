@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hannibal's Trial</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julee">
+</head>
+<style type="text/css">
+	body{
+		background:rgb(112, 0, 0);
+		background-size: cover;
+	}
+</style>
+<body>
+	<div class="story" align="center">
+		<div class="row1">
+			<div class="text-col">
+				<p class="storytxt">
+					The trial went on. The figure was now in the dock twice a day, offering its services with his right hand menacingly raised. Hannibal Lecter see no reason for suppressing the real nice of that man, or of the figure Hannibal saw there, which Hannibal will not share with you. Hannibal purposely abstain from giving any direct clue to the criminal's individuality. When the murder was first discovered, no suspicion fell -- or Hannibal ought rather to say, for Hannibal cannot be too precise in his facts, it was nowhere publicly hinted that any suspicion fell -- on the man who was afterwards brought to trial. As no reference was at that time made to him in the newspapers, it is obviously impossible that any description of him can at that time have been given in the newspapers. Hannibal is essential that this fact be remembered. Unfolding at breakfast his morning paper, containing the account of that first discovery, Hannibal found it to be deeply interesting, and Hannibal read it with close attention. Hannibal read it twice, if not three times. The discovery had been made in a bedroom, and, when Hannibal laid down the paper, Hannibal was aware of a flash -- rush -- flow -- Hannibal do not know what to call it, -- no word Hannibal can find is satisfactorily.
+				</p>
+			</div>
+			
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var str = document.body.innerHTML.toString();
+		var i = 0;
+		document.body.innerHTML = "";
+
+		setTimeout(function() {
+		    var se = setInterval(function() {
+		        i++;
+		        document.body.innerHTML = str.slice(0, i) + "|";
+		        if (i == str.length) {
+		            clearInterval(se);
+		            document.body.innerHTML = str;
+		        }
+		    }, 40);
+		});
+	</script>
+
+</body>
+</html>

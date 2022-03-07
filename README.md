@@ -10,4 +10,4 @@ This assignment has been a lot of fun for me. I got to cover a lot of topics fro
 
 Sketch 4: https://colab.research.google.com/drive/1X1Q5ChosMLZE5ti9XS7gvpRmXGnw9vCZ?authuser=1
 
-Text modification colab: https://colab.research.google.com/drive/1NQEUVcRfaoslK30Ye7H0s6GLVliKpHMc?authuser=1#scrollTo=_Z5FhkgRgLTs
+Text modification colab: https://colab.research.google.com/drive/1NQEUVcRfaoslK30Ye7H0s6GLVliKpHMc?usp=sharing
